@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./imagenes/jade sin fondo letras blancas.png">
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--css boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">   
+    <title>Jade ❤ </title>
+    
+</head>
+<body class="fondoColor">
+        <!--Comienza el header-->
+        <header>
+            <div class="logo">
+             <img src="img/jade corazon arriba.png" alt="logo" width="260px">
+            </div>
+            <!--Barra de navegación-->  
+            <nav class="navbar navbar-expand-lg navbar-light colorNav">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+         </header>
+        <!--Termina el header-->
+        
+        <!--Menú-->
+         <main>
+          <img src="img/Portadabelleza.png" class="img-fluid" alt="letra">
+
+            <section class="imagenesIndex">
+                 <h2 class="animate__animated animate__bounce masBuscados">"Productos destacados"</h2>
+                 <div class="flexImg">
+                    <img class="bordeRedondeado" src="img/mas buscados1.jpeg" alt="Centro1" width="300px">
+                    <img class="bordeRedondeado" src="img/mas buscados2.jpeg" alt="Centro2" width="350px">
+                    <img class="bordeRedondeado" src="img/mas buscados3.jpeg" alt="Centro3" width="300px">
+                 </div>
+            </section>
+                <h3 class="tituloproductos">Productos Idraet</h3>
+                <div id="contenedorProductos" class="row"></div>
+                
+                <!--Carrito de compras-->
+                
+                <hr>
+                <h2>Carrito de compras</h2>
+                <h3>El total de tu compra es  <span id="total"></span></h3>
+                <button class="btn colorBoton" id="verCarrito"><img src="img/carrito.png" alt="carrito" width=35px></button>
+                <button class="btn colorBoton"id="vaciarCarrito">Vaciar carrito</button>
+                
+                <div id="contenedorCarrito" class="row"></div>
+              </main>
+
+         <!--Empieza el footer-->  
+         <section>
+         <footer><hr>  
+          <div class="container">
+            <div class="row row-cols-3">
+              <div class="col logo">
+                <img src="img/jade sin fondo letras blancas.png" alt="logo" width="200px">
+              </div>
+              <div class="col">
+                <h6>Enlaces de interés</h6>
+                <ul>
+                  <li><a class="enlaceInt" href="index.html">INICIO</a></li>
+                  <li><a href="contacto.html">CURSOS</a></li>
+                  <li><a href="nosotros.html">NOSOTROS</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <h5>DATOS DE CONTACTO</h5><br>
+                <p><strong>Telefono:</strong>11568416845</p>
+                <p><strong>Dirección:</strong>Buenos Aires - Zona Oeste </p>
+                <section class="footerImag">
+                  <h5>Nuestras redes</h5>
+                  <a href="https://www.facebook.com/"><img src="img/face.png" alt="facebook"width=30px></a>
+                  <a href="https://www.instagram.com/"><img src="img/ig.png" alt="instagram"width=30></a>
+                </section>
+              </div>
+            </div>
+          </div>
+          </footer>
+    </div>
+    <!--boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--js-->
+    <script src="main.js"></script>
+</body>
+</html>
